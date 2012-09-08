@@ -5,7 +5,7 @@ audio:not([controls]){display:none;height:0}
 [hidden]{display:none}
 html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
 html,button,input,select,textarea{font-family:sans-serif;color:#222}
-body{line-height:1.4;color:#eee;background:url(../img/bg.png);font-family:Bangers, cursive;font-weight:700;font-size:20px;text-align:center;visibility:hidden;margin:0}
+body{line-height:1.4;color:#eee;background:url(../img/bg.png) repeat fixed 0 0 transparent;font-family:Bangers, cursive;font-weight:700;font-size:20px;text-align:center;visibility:hidden;margin:0}
 a:focus{outline:thin dotted}
 a:active,a:hover{outline:0}
 h1{font-size:120px;font-weight:400;font-family:Bangers, cursive;color:#eee;text-shadow:2px 5px 6px #000;line-height:.8;margin:0}
@@ -92,14 +92,16 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;width:40%;border-bottom:12px solid #eee;margin:1em auto;padding:0}
 .chromeframe{background:#ccc;color:#000;margin:.2em 0;padding:.2em 0}
 .main{visibility:visible}
-.main #content-wrapper{padding-top:400px;overflow:hidden;height:4400px}
+.main #content-wrapper{padding-top:400px;overflow:hidden;height:4380px}
 a,a:visited{color:#eee;font-weight:700;text-decoration:none;text-shadow:1px 5px 4px #000}
 #social{margin-top:.8em;font-size:40px}
 #social a{font-weight:700;vertical-align:bottom;margin-left:1.2em}
 #social a:first-child{margin-left:0}
-#social a:hover{color:#df6;text-shadow:0 2px 1px #000}
-#label,#label2{text-shadow:1px 5px 4px #000;display:inline-block;margin-top:2.5em;border:6px solid #fff;border-radius:36px;padding:2px 12px}
+#social a:hover{color:#af6;text-shadow:0 2px 1px #000}
+#social a:active{color:#df6}
+#label,#label2{text-shadow:1px 5px 4px #000;display:inline-block;margin:2em 0 1em 0;border:6px solid #fff;border-radius:36px;padding:2px 12px}
 #story h2{position:relative;display:block}
+#story a{color:#af6}
 #story a:hover{border-bottom:8px solid #af6;color:#af6;text-shadow:0 2px 1px #000}
 span{font-size:24px}
 .ir{background-color:transparent;border:0;overflow:hidden;text-indent:-9999px}
@@ -113,8 +115,15 @@ span{font-size:24px}
 .clearfix{zoom:1}
 p,pre,dl,menu,ol,ul{margin:1em 0}
 figure,form{margin:0}
-::-moz-selection,::selection{background:#b3d4fc;text-shadow:none}
-#social a:active,#story a{color:#af6}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
 @media print {
 *{background:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important}
 a,a:visited{text-decoration:underline}

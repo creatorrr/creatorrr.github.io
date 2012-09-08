@@ -101,7 +101,7 @@ textarea {
 
 
 body {
-	background: url('../img/bg.png');
+	background: url("../img/bg.png") repeat fixed 0% 0% transparent;
 	font-family: 'Bangers', cursive;
 	font-weight: bold;
 	font-size: 20px;
@@ -116,7 +116,7 @@ body {
 .main #content-wrapper {
 	padding-top: 400px;
 	overflow: hidden;
-	height: 4400px;
+	height: 4380px;
 }
 
 h1 {
@@ -162,18 +162,18 @@ a, a:visited {
 }
 
 #social a:hover {
-    color: #df6;
+    color: #af6;
     text-shadow: 0 2px 1px #000;
 }
 
 #social a:active {
-    color: #af6;
+    color: #df6;
 }
 
 #label, #label2 {
     text-shadow: 1px 5px 4px #000;
     display: inline-block;
-    margin-top: 2.5em;
+    margin-top: 2em;
     padding: 2px 12px;
     border: 6px solid #fff;
     border-radius: 36px;

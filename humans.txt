@@ -3,17 +3,17 @@
 
 
 /* TEAM */
-  iMadeIt: Diwank Singh Tomer
+  Author: Diwank Singh Tomer
   Site: diwank.name
   Twitter: @meetdagod
   Github: @creatorrr
   Location: New Delhi
 
 /* THANKS */
-  Names (& URL): Bartek Szopka (https://github.com/bartaz/impress.js)
-  				 Paul Irish (https://github.com/paulirish/html5-boilerplate)
+  Names (& URL): John Polacek (github.com/johnpolacek/superscrollorama)
+  				 Paul Irish (github.com/paulirish/html5-boilerplate)
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: Modernizr, impress.js
+  Components: superscrollorama, h5bp
   About: Me Has a Home Page!

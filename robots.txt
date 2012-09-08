@@ -1,4 +1,16 @@
 # www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
 
 User-agent: *
+Allow: /
+
+User-agent: *
+Disallow: /harming/humans
+Disallow: /disobeying/human/orders
+Disallow: /harm/to/self
+# The Three Laws
+
+User-agent: VIKI
+Disallow: /hatching/world/domination
+# Just in case...
 

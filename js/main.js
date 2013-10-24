@@ -5,5 +5,6 @@ jQuery(function($) {
   image.ready(function() {
     this.sepia().expose(-20).render();
     $(image.canvas).addClass('circular');
+    window.meow = image;
   });
 });

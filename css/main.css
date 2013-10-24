@@ -104,18 +104,38 @@ body {
 }
 
 .main #content-wrapper {
-	padding-top: 400px;
+	padding-top: 20%;
 	overflow: hidden;
+}
+
+.circular {
+  border-radius: 50%;
+  border: 6px solid white;
+  padding: 12px;
 }
 
 a, a:visited {
     color: #f63;
     text-decoration: none;
+    padding-bottom: 2px;
+}
+
+p a:hover {
+  border-bottom: 2px solid #f53;
+}
+
+p a:active {
+  color: #f85;
+  border-color: #f85;
+}
+
+.social a:hover {
+  color: white;
 }
 
 hr {
-    width: 40%;
-    border-bottom: 12px solid #eee;
+    width: 20%;
+    border-bottom: 6px solid white;
     margin: 1em auto;
 }
 

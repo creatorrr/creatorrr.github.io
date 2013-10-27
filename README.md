@@ -1,37 +1,9 @@
 diwank.name
 ============
 
-I'm an overly romantic idiot.
-Who makes very nice coffee.
+I am an entreprenuer living in San Francisco. I love hiking and eating bananas. 
+Sometimes, I write [essays](http://rafiki.io) or [poems](http://poet.diwank.name).
 
-Drop in sometime!
+These days I am working on helping people [feel better](http://tranqlapp.com).
 
-
-ABOUT
-----------------
-
-/ TEAM /
-  iMadeIt: Diwank Singh Tomer
-  Site: diwank.name
-  Twitter: @meetdagod
-  Github: @creatorrr
-  Location: New Delhi
-
-/ THANKS /
-  Names (& URL): @bartaz Bartek Szopka (https://github.com/bartaz/impress.js)
-  				 @paulirish Paul Irish (https://github.com/h5bp/html5-boilerplate)
-
-/ SITE /
-  Standards: HTML5, CSS3
-  Components: Modernizr, impress.js
-  About: Me Has a Home Page!
-
-
-BROWSER SUPPORT
------------------
-
-This site is built using space-age technology.
-Install Chrome or wait for IE15.
-
-Your fault if it ain't working.
-Haha hahaa!
+Feel free to [get in touch](http://ohours.org/diwank).

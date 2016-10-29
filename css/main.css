@@ -207,7 +207,16 @@ hr {
     height: 320px;
 }
 
+.rc-scout {
+   border: 1px solid white;
+   padding: 8px 16px;
+   margin: 1.5em auto;
+   max-width: 85%;
+}
 
+.rc-scout__link {
+   text-decoration: none;
+}
 
 
 /* ==========================================================================
@@ -319,6 +328,10 @@ hr {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+   
+   .rc-scout {
+      max-width: 50%;
+   }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),

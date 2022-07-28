@@ -147,8 +147,8 @@ hr {
   margin: 0 auto;
   z-index: 1;
 
-  width: 320px;
-  height: 320px;
+  width: 240px;
+  height: 240px;
 
   -webkit-perspective: 1000px;
   -moz-perspective: 1000px;
@@ -203,8 +203,8 @@ hr {
 }
 
 .face img {
-    width: 320px;
-    height: 320px;
+    width: 240px;
+    height: 240px;
 }
 
 .rc-scout {
